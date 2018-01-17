@@ -11,21 +11,21 @@ Die Fragen sind in einer lokalen Datenbank abgespeichert und werden dort für di
 Hier nochmal die einzelnen Features im Überblick:
 
 LPIC Lernprogramm auf Android (Multiple Choice)
-•	Auswahl der Fragen (Themengebiete)
-•	Hinzufügen von eigen erstellten Fragen
-•	Ändern von bestehenden Fragen
-•	Umschalten zwischen Übungs- und Prüfungsmodus (Trainee, Expert)
-•	Anzeigen der Richtigen bzw. Falschen Antworten mit sofortiger Auswertung (Trainee Modus)
-•	Auswertung der Prüfung zum Ende der Prüfung (Expert Modus)
-•	Zeitanzeige und Begrenzung im Expert Modus
-•	Fragenkatalog wird in einer lokalen Datenbank (sqlite) gespeichert
-•	Kurze Beschreibung wie der Trainer funktioniert und zu bedienen ist (Info)
+- Auswahl der Fragen (Themengebiete)
+- Hinzufügen von eigen erstellten Fragen
+- Ändern von bestehenden Fragen
+- Umschalten zwischen Übungs- und Prüfungsmodus (Trainee, Expert)
+- Anzeigen der Richtigen bzw. Falschen Antworten mit sofortiger Auswertung (Trainee Modus)
+- Auswertung der Prüfung zum Ende der Prüfung (Expert Modus)
+- Zeitanzeige und Begrenzung im Expert Modus
+- Fragenkatalog wird in einer lokalen Datenbank (sqlite) gespeichert
+- Kurze Beschreibung wie der Trainer funktioniert und zu bedienen ist (Info)
 
 In Planung
-•	Hinzufügen eines Glossary
-•	Lernfortschritt speichern
-•	Umschalten der Programmsprache (nicht die Fragen)
+- Hinzufügen eines Glossary
+- Lernfortschritt speichern
+- Umschalten der Programmsprache (nicht die Fragen)
 
 Programm soll folgende Funktionen nicht beinhalten
-•	Export der Fragen und der Ergebnisse
-•	Druckmöglichkeit
+- Export der Fragen und der Ergebnisse
+- Druckmöglichkeit
