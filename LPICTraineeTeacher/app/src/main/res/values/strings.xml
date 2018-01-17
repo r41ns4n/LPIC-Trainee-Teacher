@@ -1,0 +1,19 @@
+<resources>
+    <!-- APP NAME -->
+    <string name="app_name">JTraineeChooser</string>
+
+    <!-- BUTTONS -->
+    <string name="btn_start">Start</string>
+    <string name="btn_import">Importieren</string>
+    <string name="btn_close">Beenden </string>
+
+
+    <!-- EDIT TEXT -->
+
+    <!-- TEXT VIEWS -->
+    <string name="tv_choose">Themengebiet auswählen</string>
+    <string name="tv_version">v1.0</string>
+
+
+
+</resources>

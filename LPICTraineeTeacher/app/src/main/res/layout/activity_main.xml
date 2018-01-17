@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@drawable/main">
+
+    <!-- BUTTONS -->
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_import"
+        android:layout_alignStart="@+id/btn_close"
+        android:layout_marginBottom="18dp"
+        android:text="@string/btn_start"
+        android:drawableRight="@android:drawable/btn_star_big_on"/>
+
+    <Button
+        android:id="@+id/btn_import"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_close"
+        android:layout_alignEnd="@+id/btn_start"
+        android:layout_marginBottom="15dp"
+        android:text="@string/btn_import" />
+
+    <Button
+        android:id="@+id/btn_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="15dp"
+        android:text="@string/btn_close"
+        android:drawableRight="@android:drawable/ic_lock_power_off"/>
+
+    <!-- IMAGE BUTTONS -->
+    <ImageButton
+        android:id="@+id/img_btn_german"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/img_btn_english"
+        android:src="@drawable/german_small" />
+
+    <ImageButton
+        android:id="@+id/img_btn_english"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/english_small" />
+
+
+
+    <!-- EDIT TEXT -->
+
+
+    <!-- TEXT VIEWS -->
+    <TextView
+        android:id="@+id/tv_choose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_start"
+        android:layout_alignEnd="@+id/btn_start"
+        android:layout_marginBottom="86dp"
+        android:hint="@string/tv_choose" />
+
+    <TextView
+        android:id="@+id/tv_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:hint="@string/tv_version" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btn_start"
+        android:layout_marginEnd="21dp"
+        android:layout_toStartOf="@+id/tv_choose"
+        android:text="RadioButton" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/radioButton"
+        android:layout_alignTop="@+id/btn_import"
+        android:text="Switch" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/radioButton"
+        android:layout_alignTop="@+id/tv_choose"
+        android:layout_marginTop="35dp"
+        android:text="CheckBox" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/radioButton"
+        android:layout_below="@+id/img_btn_german"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:inputType="time" />
+
+
+</RelativeLayout>
